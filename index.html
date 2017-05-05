@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- The into page for the retro game app -->
+</head>
+    <body>
+      <h1>
+        <div class="mainHeader">Retrospective Matching</div>
+      </h1>
+      <p>
+        <input class="inputBox" type="text" value="Enter PIN" 
+        onfocus="this.value = this.value=='Enter PIN'?'':this.value;" 
+        onblur="this.value = this.value==''?'Enter PIN':this.value;">
+      </p>
+      <p>
+        <button class="button" type="button" onclick='$.notify("test",{ position:"bottom" });'>Enter</button>
+      </p>
+    </body>
+</html>
