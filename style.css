@@ -1,0 +1,53 @@
+.mainHeader {
+    color: rgb(77,20,140);
+    font-family: Arial;
+    font-size: 200%;
+    padding: 200px 10px 10px 10px;
+    position: static;
+    text-align: center;
+  }
+
+.inputBox {
+    border-color: #999999;
+    border-style: solid;
+    display: block;
+    font-family: Arial;
+    margin : 0 auto;
+    position: static;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    width: 165px;
+  }
+
+.button {
+    background-color: #4D148C;
+    border:solid #4D148C;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 16px;
+    margin : 0 auto;
+    padding: 10px 10px 10px 10px;
+    position: static;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    width: 170px;
+  }
+
+.button:hover {
+    background-color: white;
+    color: #4D148C;
+    }
+
+footer {
+    background-color: #FF0033;
+    bottom:0;
+    clear: left;
+    color: white;
+    padding: 1em;
+    position:absolute;
+    text-align: left;
+    width:95%;
+}
