@@ -7,10 +7,10 @@
   <link
     rel="stylesheet"
     type="text/css"
-    href="styles\style.css"
+    href="styles\landingPage.css"
   ></link>
 
-  <script src="scripts\scripts.js"></script>
+  <script src="scripts\landingPage.js"></script>
 </head>
 
 <body>
@@ -22,8 +22,15 @@
 <div class="center">
 
     <p>
-      <form>
+      <!--<form>-->
+
+        <!-- The below code is inline javascript to acomplish roughly the same thing as the placeholder.
+        
+        onfocus="this.value = this.value=='Enter PIN'?'':this.value;" 
+        onblur="this.value = this.value==''?'Enter PIN':this.value;"> -->
+
         <input
+          id = "gamePin"
           class="inputBox"
           type="number"
           placeholder="Enter PIN"
@@ -31,16 +38,16 @@
         ></input>
 
         <br>
-        <!-- The below code is inline javascript to acomplish roughly the same thing as the placeholder.
-        onfocus="this.value = this.value=='Enter PIN'?'':this.value;" 
-        onblur="this.value = this.value==''?'Enter PIN':this.value;"> -->
 
         <input
           class="purpleButton"
           type="submit"
           value="Join a Game"
+          onclick="loginValidation()"
         ></input>
-      </form>
+      <!--</form>-->
+
+        <br>
 
       <input
         class="blueButton"
