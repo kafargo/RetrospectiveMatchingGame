@@ -10,7 +10,7 @@ function loginValidation() {
 
         errorMsg.innerHTML = "PIN should be 4 digits"
         errorMsg.className = "show";
-        setTimeout(function(){ errorMsg.className = errorMsg.className.replace("show", ""); }, 3000);
+        setTimeout(function(){ errorMsg.className = errorMsg.className.replace("show", ""); }, 5000);
 
     } 
     // TODO: sample message that shows when the PIN meets pin criteria, but is not found
@@ -18,7 +18,7 @@ function loginValidation() {
 
         errorMsg.innerHTML = "PIN not found. Please confirm your PIN and try again"
         errorMsg.className = "show";
-        setTimeout(function(){ errorMsg.className = errorMsg.className.replace("show", ""); }, 3000);
+        setTimeout(function(){ errorMsg.className = errorMsg.className.replace("show", ""); }, 5000);
 
     } 
     // TODO: if they can login, that goes in the 'else' caluse
