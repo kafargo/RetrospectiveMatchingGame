@@ -28,4 +28,6 @@ function loginValidation() {
 
     }
 
+    return 0;
+
 }

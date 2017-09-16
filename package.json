@@ -1,0 +1,23 @@
+{
+  "name": "retrospectivematchinggame",
+  "version": "1.0.0",
+  "description": "A game for retrospective use",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafargo/RetrospectiveMatchingGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kafargo/RetrospectiveMatchingGame/issues"
+  },
+  "homepage": "https://github.com/kafargo/RetrospectiveMatchingGame#readme"
+}
