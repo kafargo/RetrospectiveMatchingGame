@@ -7,4 +7,8 @@ to run the application, cd to the project directory and run the following comman
 
 `java -jar target/retro-game-0.1.0.jar`
 
+OR
+
+`mvn spring-boot:run`
+
 proceed to  http://localhost:8080
